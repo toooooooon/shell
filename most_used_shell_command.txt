@@ -1,0 +1,19 @@
+#-----------------------------------------------#
+#	Author 	: toooooooon			#
+#	Email	: toooooooon@gmail.com		#
+#	Script	: Most-Used shell command	#
+#-----------------------------------------------#
+
+# Ping
+# Count 1 , time out 2 sec
+ping -c 1 -w 2 8.8.8.8
+
+
+# Netcat  , nc 
+# Zoro byte + Verbose
+nc -zv 8.8.8.8 53
+
+# Create Listen port TCP 6000
+nc -kl 6000
+
+# 
